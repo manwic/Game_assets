@@ -2,9 +2,9 @@
 
 A collection of game design assets including characters, maps, weapons, and animations.
 
-## Repository Protection
+## Master Branch Protection
 
-This repository is protected with a `.gitignore` file that excludes:
+This repository is protected with a `.gitignore` file that prevents unwanted files from being committed to the master branch. The `.gitignore` excludes:
 
 - **Backup files**: `*.kra~`, `*-autosave.*`, `*.backup`
 - **Executables**: `*.exe`, `*.dll`, `*.so`
@@ -12,11 +12,12 @@ This repository is protected with a `.gitignore` file that excludes:
 - **OS-specific files**: `.DS_Store`, `Thumbs.db`, `Desktop.ini`
 - **IDE files**: `.vscode/`, `.idea/`, `*.swp`
 
-### Best Practices
+### Best Practices for Master Branch
 
-1. **Don't commit temporary files**: Autosave and backup files are automatically excluded
-2. **Don't commit executables**: Installer files and binaries are excluded
-3. **Keep source files clean**: Only commit final assets, not work-in-progress backups
+1. **Don't commit temporary files**: Autosave and backup files are automatically excluded from master
+2. **Don't commit executables**: Installer files and binaries are excluded from master
+3. **Keep source files clean**: Only commit final assets to master, not work-in-progress backups
+4. **Verify before pushing**: Always run `git status` before pushing to master to ensure no unwanted files are included
 
 ## Contents
 
