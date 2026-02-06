@@ -1,0 +1,48 @@
+# Backup and autosave files
+*.kra~
+*-autosave.*
+*.backup
+*.bak
+*.tmp
+*~
+
+# Krita temporary files
+*.kra-autosave.kra
+
+# Photoshop temporary files
+*.psd~
+~*.psd
+
+# Blender backup files
+*.blend1
+*.blend2
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and cache files
+*.cache
+*.log
+temp/
+tmp/
